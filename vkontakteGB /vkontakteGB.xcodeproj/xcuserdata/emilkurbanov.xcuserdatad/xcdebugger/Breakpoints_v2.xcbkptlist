@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "20A16BAA-2169-498B-A9B3-FD3754982D81"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "990D30CF-746B-46DB-A767-C578E54B5644"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vkontakteGB/FriendsTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FriendsTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - a5fe84508099940a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.labelViewCell.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - 18472ff09f5ff806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.labelViewCell.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - 4c35bff9dca3fc9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.labelViewCell.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - 5b0f6f919d05b04c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.labelViewCell.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - b6d4f13b4e9c1591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; vkontakteGB.FriendsTableViewCell"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "990D30CF-746B-46DB-A767-C578E54B5644 - bcd8024d65d5cc8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.FriendsTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;vkontakteGB.FriendsTableViewCell&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/FriendsTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C6D5B7B-5FF3-45F2-AEC3-02096BDBEB39"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vkontakteGB/SearchGroupTableVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DCF36C8-5C0E-4AB3-AA05-3CDD6366FD4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vkontakteGB/SearchGroupTableVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vkontakteGB/GroupTableVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "GroupTableVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - c01dd46544c20047"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.groupArrayImage.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - 6baa53d4a1e07433"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.groupArrayImage.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - 80e839d3f909fd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.groupArrayImage.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - d9899ff3c90fc81b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.groupArrayImage.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - 42f05f599a782522"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.init(style: __C.UITableViewStyle) -&gt; vkontakteGB.GroupTableVC"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - b8a7f857a64682c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; vkontakteGB.GroupTableVC"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "423">
+               </Location>
+               <Location
+                  uuid = "FD4A5B63-A063-48CC-9338-32F6BEE8BFE5 - f4ad8a8f817e1ee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vkontakteGB.GroupTableVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;vkontakteGB.GroupTableVC&gt;"
+                  moduleName = "vkontakteGB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emilkurbanov/Desktop/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/GeekBrains/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%92%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5/vkontakteGB/vkontakteGB/GroupTableVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "358">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B94A408C-A615-4F62-B6CE-162BA3DF951A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vkontakteGB/GroupTableVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
