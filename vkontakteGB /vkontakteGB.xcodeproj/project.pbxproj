@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7216194263022AB00D0D902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7216193263022AB00D0D902 /* AppDelegate.swift */; };
+		F7216196263022AB00D0D902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7216195263022AB00D0D902 /* SceneDelegate.swift */; };
+		F721619B263022AB00D0D902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7216199263022AB00D0D902 /* Main.storyboard */; };
+		F721619D263022AB00D0D902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F721619C263022AB00D0D902 /* Assets.xcassets */; };
+		F72161A0263022AB00D0D902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F721619E263022AB00D0D902 /* LaunchScreen.storyboard */; };
+		F72161AA2630323F00D0D902 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72161A92630323F00D0D902 /* LoginViewController.swift */; };
+		F74D70C5265BA18D00B82D26 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D70C4265BA18D00B82D26 /* CustomNavigationController.swift */; };
+		F74D70C8265BA1F800B82D26 /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D70C7265BA1F800B82D26 /* PushAnimator.swift */; };
+		F74D70CA265BA23D00B82D26 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D70C9265BA23D00B82D26 /* PopAnimator.swift */; };
+		F74D70CC265BA27C00B82D26 /* CustomInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D70CB265BA27C00B82D26 /* CustomInteractiveTransition.swift */; };
+		F75E9D65263944C30010A7EE /* FriendsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D64263944C30010A7EE /* FriendsTableVC.swift */; };
+		F75E9D68263949770010A7EE /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D67263949770010A7EE /* FriendsTableViewCell.swift */; };
+		F75E9D6B26396E940010A7EE /* GroupTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D6A26396E940010A7EE /* GroupTableVC.swift */; };
+		F75E9D6E263970210010A7EE /* GroupTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D6D263970210010A7EE /* GroupTableVCell.swift */; };
+		F75E9D71263976E40010A7EE /* SearchGroupTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D70263976E40010A7EE /* SearchGroupTableVC.swift */; };
+		F75E9D74263977BA0010A7EE /* SearchGroupTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D73263977BA0010A7EE /* SearchGroupTableVCell.swift */; };
+		F75E9D772639B3360010A7EE /* friendsPhotoCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D762639B3360010A7EE /* friendsPhotoCollectionVCell.swift */; };
+		F75E9D7A2639B61B0010A7EE /* FriendsPhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D792639B61B0010A7EE /* FriendsPhotoCollectionVC.swift */; };
+		F75E9D7D263B1BAD0010A7EE /* ModelFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E9D7C263B1BAD0010A7EE /* ModelFriends.swift */; };
+		F75FCAB82652EB2700C38C27 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FCAB72652EB2700C38C27 /* LoadingView.swift */; };
+		F75FCABA2653A4BC00C38C27 /* FriendsPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FCAB92653A4BC00C38C27 /* FriendsPhotoVC.swift */; };
+		F76DD3D7263E89C7009E8788 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76DD3D6263E89C7009E8788 /* Gradient.swift */; };
+		F79F3369264BA9F800484BF8 /* ModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F3368264BA9F800484BF8 /* ModelGroup.swift */; };
+		F79F336B264BE6E300484BF8 /* TableNewsVS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F336A264BE6E300484BF8 /* TableNewsVS.swift */; };
+		F79F336E264BE72A00484BF8 /* TableNewsVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F336D264BE72A00484BF8 /* TableNewsVCell.swift */; };
+		F7A8B9FB264C07F8005E59F6 /* ModelNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8B9FA264C07F8005E59F6 /* ModelNews.swift */; };
+		F7BBDA552641AF6200262C0D /* LikeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBDA542641AF6200262C0D /* LikeControl.swift */; };
+		F7BBDA6B2643976500262C0D /* AvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBDA6A2643976500262C0D /* AvatarsView.swift */; };
+		F7DE0DC926663C6600A0AA6C /* CloudAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE0DC826663C6600A0AA6C /* CloudAnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7216190263022AB00D0D902 /* vkontakteGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkontakteGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7216193263022AB00D0D902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7216195263022AB00D0D902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F721619A263022AB00D0D902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F721619C263022AB00D0D902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F721619F263022AB00D0D902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72161A1263022AB00D0D902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72161A92630323F00D0D902 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F74D70C4265BA18D00B82D26 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		F74D70C7265BA1F800B82D26 /* PushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
+		F74D70C9265BA23D00B82D26 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		F74D70CB265BA27C00B82D26 /* CustomInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInteractiveTransition.swift; sourceTree = "<group>"; };
+		F75E9D64263944C30010A7EE /* FriendsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableVC.swift; sourceTree = "<group>"; };
+		F75E9D67263949770010A7EE /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		F75E9D6A26396E940010A7EE /* GroupTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableVC.swift; sourceTree = "<group>"; };
+		F75E9D6D263970210010A7EE /* GroupTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableVCell.swift; sourceTree = "<group>"; };
+		F75E9D70263976E40010A7EE /* SearchGroupTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupTableVC.swift; sourceTree = "<group>"; };
+		F75E9D73263977BA0010A7EE /* SearchGroupTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupTableVCell.swift; sourceTree = "<group>"; };
+		F75E9D762639B3360010A7EE /* friendsPhotoCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsPhotoCollectionVCell.swift; sourceTree = "<group>"; };
+		F75E9D792639B61B0010A7EE /* FriendsPhotoCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCollectionVC.swift; sourceTree = "<group>"; };
+		F75E9D7C263B1BAD0010A7EE /* ModelFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFriends.swift; sourceTree = "<group>"; };
+		F75FCAB72652EB2700C38C27 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F75FCAB92653A4BC00C38C27 /* FriendsPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoVC.swift; sourceTree = "<group>"; };
+		F76DD3D6263E89C7009E8788 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		F79F3368264BA9F800484BF8 /* ModelGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGroup.swift; sourceTree = "<group>"; };
+		F79F336A264BE6E300484BF8 /* TableNewsVS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNewsVS.swift; sourceTree = "<group>"; };
+		F79F336D264BE72A00484BF8 /* TableNewsVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNewsVCell.swift; sourceTree = "<group>"; };
+		F7A8B9FA264C07F8005E59F6 /* ModelNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNews.swift; sourceTree = "<group>"; };
+		F7BBDA542641AF6200262C0D /* LikeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControl.swift; sourceTree = "<group>"; };
+		F7BBDA6A2643976500262C0D /* AvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarsView.swift; sourceTree = "<group>"; };
+		F7DE0DC826663C6600A0AA6C /* CloudAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F721618D263022AA00D0D902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7216187263022AA00D0D902 = {
+			isa = PBXGroup;
+			children = (
+				F7216192263022AB00D0D902 /* vkontakteGB */,
+				F7216191263022AB00D0D902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7216191263022AB00D0D902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7216190263022AB00D0D902 /* vkontakteGB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7216192263022AB00D0D902 /* vkontakteGB */ = {
+			isa = PBXGroup;
+			children = (
+				F7216193263022AB00D0D902 /* AppDelegate.swift */,
+				F7216195263022AB00D0D902 /* SceneDelegate.swift */,
+				F7216199263022AB00D0D902 /* Main.storyboard */,
+				F79F336C264BE6EA00484BF8 /* News */,
+				F72161A92630323F00D0D902 /* LoginViewController.swift */,
+				F79F3364264A633600484BF8 /*  Friends */,
+				F79F3365264A636500484BF8 /* Group */,
+				F79F3366264A639600484BF8 /* Models */,
+				F79F3367264A63A200484BF8 /* Views */,
+				F721619C263022AB00D0D902 /* Assets.xcassets */,
+				F721619E263022AB00D0D902 /* LaunchScreen.storyboard */,
+				F72161A1263022AB00D0D902 /* Info.plist */,
+			);
+			path = vkontakteGB;
+			sourceTree = "<group>";
+		};
+		F74D70C6265BA19900B82D26 /* CustomNC */ = {
+			isa = PBXGroup;
+			children = (
+				F74D70C4265BA18D00B82D26 /* CustomNavigationController.swift */,
+				F74D70C7265BA1F800B82D26 /* PushAnimator.swift */,
+				F74D70C9265BA23D00B82D26 /* PopAnimator.swift */,
+				F74D70CB265BA27C00B82D26 /* CustomInteractiveTransition.swift */,
+			);
+			name = CustomNC;
+			sourceTree = "<group>";
+		};
+		F79F3364264A633600484BF8 /*  Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F75E9D67263949770010A7EE /* FriendsTableViewCell.swift */,
+				F75E9D64263944C30010A7EE /* FriendsTableVC.swift */,
+				F75E9D762639B3360010A7EE /* friendsPhotoCollectionVCell.swift */,
+				F75E9D792639B61B0010A7EE /* FriendsPhotoCollectionVC.swift */,
+				F75FCAB92653A4BC00C38C27 /* FriendsPhotoVC.swift */,
+			);
+			name = " Friends";
+			sourceTree = "<group>";
+		};
+		F79F3365264A636500484BF8 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				F75E9D6A26396E940010A7EE /* GroupTableVC.swift */,
+				F75E9D6D263970210010A7EE /* GroupTableVCell.swift */,
+				F75E9D70263976E40010A7EE /* SearchGroupTableVC.swift */,
+				F75E9D73263977BA0010A7EE /* SearchGroupTableVCell.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		F79F3366264A639600484BF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F75E9D7C263B1BAD0010A7EE /* ModelFriends.swift */,
+				F7A8B9FA264C07F8005E59F6 /* ModelNews.swift */,
+				F79F3368264BA9F800484BF8 /* ModelGroup.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F79F3367264A63A200484BF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBDA542641AF6200262C0D /* LikeControl.swift */,
+				F75FCAB72652EB2700C38C27 /* LoadingView.swift */,
+				F7BBDA6A2643976500262C0D /* AvatarsView.swift */,
+				F7DE0DC826663C6600A0AA6C /* CloudAnimationView.swift */,
+				F76DD3D6263E89C7009E8788 /* Gradient.swift */,
+				F74D70C6265BA19900B82D26 /* CustomNC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F79F336C264BE6EA00484BF8 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				F79F336A264BE6E300484BF8 /* TableNewsVS.swift */,
+				F79F336D264BE72A00484BF8 /* TableNewsVCell.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F721618F263022AA00D0D902 /* vkontakteGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72161A4263022AB00D0D902 /* Build configuration list for PBXNativeTarget "vkontakteGB" */;
+			buildPhases = (
+				F721618C263022AA00D0D902 /* Sources */,
+				F721618D263022AA00D0D902 /* Frameworks */,
+				F721618E263022AA00D0D902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkontakteGB;
+			productName = vkontakteGB;
+			productReference = F7216190263022AB00D0D902 /* vkontakteGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7216188263022AA00D0D902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F721618F263022AA00D0D902 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F721618B263022AA00D0D902 /* Build configuration list for PBXProject "vkontakteGB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7216187263022AA00D0D902;
+			productRefGroup = F7216191263022AB00D0D902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F721618F263022AA00D0D902 /* vkontakteGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F721618E263022AA00D0D902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72161A0263022AB00D0D902 /* LaunchScreen.storyboard in Resources */,
+				F721619D263022AB00D0D902 /* Assets.xcassets in Resources */,
+				F721619B263022AB00D0D902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F721618C263022AA00D0D902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D70C5265BA18D00B82D26 /* CustomNavigationController.swift in Sources */,
+				F75E9D6E263970210010A7EE /* GroupTableVCell.swift in Sources */,
+				F75E9D74263977BA0010A7EE /* SearchGroupTableVCell.swift in Sources */,
+				F7BBDA552641AF6200262C0D /* LikeControl.swift in Sources */,
+				F72161AA2630323F00D0D902 /* LoginViewController.swift in Sources */,
+				F7DE0DC926663C6600A0AA6C /* CloudAnimationView.swift in Sources */,
+				F75E9D7D263B1BAD0010A7EE /* ModelFriends.swift in Sources */,
+				F75E9D7A2639B61B0010A7EE /* FriendsPhotoCollectionVC.swift in Sources */,
+				F79F336B264BE6E300484BF8 /* TableNewsVS.swift in Sources */,
+				F7BBDA6B2643976500262C0D /* AvatarsView.swift in Sources */,
+				F7216194263022AB00D0D902 /* AppDelegate.swift in Sources */,
+				F7216196263022AB00D0D902 /* SceneDelegate.swift in Sources */,
+				F75FCABA2653A4BC00C38C27 /* FriendsPhotoVC.swift in Sources */,
+				F79F3369264BA9F800484BF8 /* ModelGroup.swift in Sources */,
+				F74D70CC265BA27C00B82D26 /* CustomInteractiveTransition.swift in Sources */,
+				F75E9D68263949770010A7EE /* FriendsTableViewCell.swift in Sources */,
+				F7A8B9FB264C07F8005E59F6 /* ModelNews.swift in Sources */,
+				F74D70C8265BA1F800B82D26 /* PushAnimator.swift in Sources */,
+				F75FCAB82652EB2700C38C27 /* LoadingView.swift in Sources */,
+				F75E9D65263944C30010A7EE /* FriendsTableVC.swift in Sources */,
+				F75E9D772639B3360010A7EE /* friendsPhotoCollectionVCell.swift in Sources */,
+				F75E9D6B26396E940010A7EE /* GroupTableVC.swift in Sources */,
+				F76DD3D7263E89C7009E8788 /* Gradient.swift in Sources */,
+				F79F336E264BE72A00484BF8 /* TableNewsVCell.swift in Sources */,
+				F74D70CA265BA23D00B82D26 /* PopAnimator.swift in Sources */,
+				F75E9D71263976E40010A7EE /* SearchGroupTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7216199263022AB00D0D902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F721619A263022AB00D0D902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F721619E263022AB00D0D902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F721619F263022AB00D0D902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72161A2263022AB00D0D902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72161A3263022AB00D0D902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72161A5263022AB00D0D902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX4Z863YP5;
+				INFOPLIST_FILE = vkontakteGB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voitivit.vkontakteGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F72161A6263022AB00D0D902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX4Z863YP5;
+				INFOPLIST_FILE = vkontakteGB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voitivit.vkontakteGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F721618B263022AA00D0D902 /* Build configuration list for PBXProject "vkontakteGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72161A2263022AB00D0D902 /* Debug */,
+				F72161A3263022AB00D0D902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72161A4263022AB00D0D902 /* Build configuration list for PBXNativeTarget "vkontakteGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72161A5263022AB00D0D902 /* Debug */,
+				F72161A6263022AB00D0D902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7216188263022AA00D0D902 /* Project object */;
+}
